@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.nagyvarad.MainActivity">
+
+
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_alignParentLeft="true"
+        android:layout_width="16dp"
+        android:layout_height="match_parent" />
+
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="36dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_spa"
+                android:src="@drawable/spa"
+                style="@style/imageViewStyle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorBackground"
+                android:padding="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="38dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/spa_name"
+                    android:text="@string/spa"
+                    android:gravity="bottom"
+                    style="@style/category" />
+
+                <TextView
+                    android:id="@+id/spa_deserve"
+                    android:text="@string/recomandari"
+                    android:gravity="top"
+                    style="@style/category"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="36dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iamge_hotel"
+                android:src="@drawable/hotel"
+                style="@style/imageViewStyle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorBackground"
+                android:padding="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="38dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/hotels_name"
+                    android:text="@string/hotels"
+                    android:gravity="bottom"
+                    style="@style/category"/>
+
+                <TextView
+                    android:id="@+id/hotels_deserve"
+                    android:text="@string/recomandari"
+                    android:gravity="top"
+                    style="@style/category"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="36dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_restaurants"
+                android:src="@drawable/restaurants"
+                style="@style/imageViewStyle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorBackground"
+                android:padding="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="38dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/restaurants_name"
+                    android:text="@string/restaurants"
+                    android:gravity="bottom"
+                    style="@style/category"/>
+
+                <TextView
+                    android:id="@+id/restaurants_deserve"
+                    android:text="@string/recomandari"
+                    android:gravity="top"
+                    style="@style/category"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="36dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/wedding_image"
+                android:src="@drawable/wedding"
+                style="@style/imageViewStyle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorBackground"
+                android:padding="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="38dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/weding_name"
+                    android:text="@string/wedding_hall"
+                    android:gravity="bottom"
+                    style="@style/category"/>
+
+                <TextView
+                    android:id="@+id/wedding_deserve"
+                    android:text="@string/recomandari"
+                    android:gravity="top"
+                    style="@style/category"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="36dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_history"
+                android:src="@drawable/history"
+                style="@style/imageViewStyle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorBackground"
+                android:padding="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="38dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/history_name"
+                    android:text="@string/general_presentation"
+                    android:gravity="bottom"
+                    style="@style/category"/>
+
+                <TextView
+                    android:id="@+id/history_deserve"
+                    android:text="@string/recomandari"
+                    android:gravity="top"
+                    style="@style/category"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="36dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_translate"
+                android:src="@drawable/translate"
+                style="@style/imageViewStyle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorBackground"
+                android:padding="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="38dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/translate_name"
+                    android:text="@string/translate"
+                    android:gravity="bottom"
+                    style="@style/category" />
+
+                <TextView
+                    android:id="@+id/translate_deserve"
+                    android:text="@string/recomandari"
+                    android:gravity="top"
+                    style="@style/category"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/cimer"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/varad"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+</RelativeLayout>
+
+

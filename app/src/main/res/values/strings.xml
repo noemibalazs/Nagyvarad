@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Nagyvarad</string>
+    <string name="spa">Spa</string>
+    <string name="recomandari">Recommandations</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="wedding_hall">Wedding halls</string>
+    <string name="general_presentation">History and more</string>
+    <string name="translate">Translations</string>
+
+    <string name="roman_taxi">Va rog sa-mi chemati un taxi</string>
+    <string name="english_taxi">Please call me a taxi as soon as possible</string>
+
+    <string name="roman_spital">Cum pot ajunge la spital?</string>
+    <string name="english_spital">How can I get to the hospital?</string>
+
+    <string name="roman_bacsis">Scuzati-ma, bacsisul este inclus in nota de plata?</string>
+    <string name="english_bacsis">Excuse me. Is it the tip on the bill?</string>
+
+    <string name="roman_aeroport">Cum pot ajunge la aeroport?</string>
+    <string name="english_aeroport">How can I get to the airport?</string>
+
+    <string name="roman_tramvai">Este scumpa calatoria cu tramvaiul in acest oras?</string>
+    <string name="english_tramvai">It is expensive to travel by tram in this town?</string>
+
+    <string name="roman_farmacie">Iertati-ma, aveti farmacie nonstop in acest oras?</string>
+    <string name="english_farmacie">Excuse me. Do you have a non-stop pharmacy in this town?</string>
+
+    <string name="roman_politie">Unde este cea mai apropiata sectie de politie?</string>
+    <string name="english_politie">Where is the nearest police station?</string>
+
+</resources>
