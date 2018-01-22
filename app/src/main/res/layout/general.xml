@@ -73,6 +73,7 @@
                 android:gravity="top"
                 android:textColor="@color/colorBackground"
                 android:layout_weight="1"
+                android:layout_marginBottom="1dp"
                 android:textAppearance="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="0dp" />
@@ -84,6 +85,7 @@
                 android:textColor="@color/colorBackground"
                 android:textAppearance="?android:textAppearanceSmall"
                 android:layout_weight="1"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="0dp" />
 
